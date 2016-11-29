@@ -1,0 +1,12 @@
+body{
+    font-family: 宋体;
+    /*background-color: lime;*/
+    background-image: url("/assets/images/body_bg.jpg");
+    /* 页边距 */
+    margin: 0px 0px 0px 0px;
+}
+
+img{
+    /* 消除 图片的基线空行 */
+    vertical-align:bottom;
+}

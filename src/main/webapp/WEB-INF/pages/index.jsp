@@ -3,13 +3,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>菜鸟教程(runoob.com)</title>
+    <title>主页</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
-Hello World!<br/>
-<%
-    out.println("你的 IP 地址 " + request.getRemoteAddr());
-%>
-<jsp:include page="sms/index_sms.jsp"></jsp:include>
+<%--Hello World!<br/>--%>
+<%--<%--%>
+    <%--out.println("你的 IP 地址 " + request.getRemoteAddr());--%>
+<%--%>--%>
+<%--<jsp:include page="sms/index_sms.jsp"></jsp:include>--%>
+<jsp:include page="module/base/card/card_demo.jsp"></jsp:include>
 </body>
 </html>

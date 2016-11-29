@@ -1,0 +1,44 @@
+
+
+/*大屏*/
+@media (min-width: 970px) {
+    .card{
+
+    }
+}
+
+/*中屏*/
+@media (max-width: 970px) {
+    .card{
+
+    }
+}
+
+/*小屏*/
+@media (max-width: 750px) {
+    .card{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+}
+
+
+/*通用项*/
+.card_list{
+    margin: 0px 0px 0px 0px;
+}
+
+.card{
+    background-color: #e9e9e9;
+}
+
+/*卡片行间距*/
+.card_spacing{
+    height: 0.7em;
+}
+
+/*.container {*/
+    /*padding-left: 0px;*/
+    /*padding-right: 0px;*/
+/*}*/
